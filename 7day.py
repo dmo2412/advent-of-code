@@ -56,7 +56,7 @@ for path, size in paths.items():
     if path_space > needed_space and path_space < closest_dir:
         closest_dir = path_space
 
-# print(closest_dir)
+print(closest_dir)
 longest = ""
 for k, v in paths.items():
     if len(k.split("/")) > len(longest.split("/")):
