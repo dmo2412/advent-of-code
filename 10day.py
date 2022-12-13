@@ -76,7 +76,7 @@ ans.append(curr_crt)
 for line in ans:
     print(line)
 
-
+print(10%11)
 
 
                 
