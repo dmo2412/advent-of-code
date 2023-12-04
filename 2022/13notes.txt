@@ -1,0 +1,14 @@
+# first value is called left
+# second value is called right 
+# if both integers, lower integer should come first
+# if both values are lists, compare the first value of each list, then second and so on:
+    # if leftlist runs out of items first, list is good. Same length = keep checking
+# if one value is an integer, convert integer to list which contains that integer as its only value, then retry the comparison
+
+Break it down into individual lists:
+    Find first left bracket and last right bracket and continue to shrink and append to outer list 
+    print(left.rindex("]")) --> last index
+
+Take left bracket and bracket counter: if bracket counter > 1, next closed bracket will not close the current array
+
+get the inner chunk and pop it out and return next chunk with same logic 
